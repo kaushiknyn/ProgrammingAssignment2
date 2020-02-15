@@ -33,8 +33,9 @@ makeCacheMatrix <- function(x = matrix()){
 ## The cacheSolve matrix starts off by calculating the inverse of the "special"
 ## matrix using the makeCacheMatrix function
 ## The if loop with in the function evalulates to see if the inverse of the
-## The cacheSolve matrix starts off by calculating the inverse of a matrix.
-## the if loop with in the function evalulates to see if the inveser of the
+## The cacheSolve matrix starts off by calculating the inverse of the matrix
+## defined in makeCacheMatrix.
+## The if loop with in the function evalulates to see if the inverse of the
 ## matrix in the argument has already been cached. If it has it retrieves the
 ## inverse value is stored using the cache function and returns it without
 ## having to calculate the inverse all over again
